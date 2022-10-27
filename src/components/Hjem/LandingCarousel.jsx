@@ -13,13 +13,13 @@ function LandingCarousel(props) {
             <div className="carousel-shadow">
                 <Carousel>
                     <Carousel.Item>
-                        <div className='carousel-image' style={{backgroundImage: 'url("https://www.lindbak.no/assets/img/INTERIØR/andtradition_ATD_Como_SC53_Lato_LN9_LittlePetra_VB1.jpg")'}}></div>
+                        <div className='carousel-image ci1' ></div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className='carousel-image' style={{backgroundImage: 'url("https://www.lindbak.no/assets/img/INTERIØR/Mater_TerhoLamp_Bar_Kjokken.jpg")'}}></div>
+                        <div className='carousel-image ci2' ></div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className='carousel-image' style={{backgroundImage: 'url("https://www.lindbak.no/assets/img/INTERIØR/andtradition_ATD_Como_SC53_Lato_LN9_LittlePetra_VB1.jpg")'}}></div>
+                        <div className='carousel-image ci3' ></div>
                     </Carousel.Item>
                 </Carousel>
             </div>
