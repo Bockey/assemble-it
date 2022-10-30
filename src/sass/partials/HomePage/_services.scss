@@ -50,7 +50,7 @@
     padding: 10rem 5%;
     gap: 2rem;
     justify-items: center;
-    align-items: center;
+    // align-items: center;
     @media (max-width: 1080px) {
       grid-template-columns: 1fr;
       width: 100%;
@@ -58,6 +58,9 @@
     }
     & div {
       max-width: 300px;
+      @media (max-width: 768px) {
+        width: 300px;
+      }
       h3 {
         border-bottom: 1px solid $color-primary;
       }

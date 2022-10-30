@@ -46,7 +46,14 @@ function Services(props) {
             montasje og spesialtilpasninger.
           </p>
         </div>
-        <Nav.Link href="/tjenester">See more...</Nav.Link>
+        <div className="other">
+          <h3>Other</h3>
+          <p>
+            And many secondary services.
+          </p>
+          <Nav.Link href="/tjenester">See more...</Nav.Link>
+        </div>
+        
       </div>
     </div>
   );

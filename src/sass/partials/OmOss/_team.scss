@@ -8,9 +8,50 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 5rem;
+
+    //added
+    padding: 0;
+    //
     @media (max-width: 1080px) {
       margin-top: 0;
     }
+    //added
+    .accordion{
+      width: 100%;
+      border: none;
+    
+      .accordion-item{
+        width: 100%;
+        border: none;
+        h2{
+          padding: 1rem 0;
+        }
+        .accordion-body{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+        }
+      }
+      .accordion-button{
+        background-color: $color-primary;
+        color: #fff;
+        &::after{
+          filter: invert(300%);
+        }
+      }
+      .accordion-button:not(.collapsed){
+        background-color: $color-primary;
+        color: #fff;
+        &::after{
+          filter: grayscale(100%) opacity(0.3);
+        }
+      }
+      .accordion-button:focus {
+        box-shadow:  none;
+        border-bottom: 2px solid $color-secondary-light;
+      }
+    }
+    //
     .employee {
       background-color: $color-primary;
       color: #fff;
@@ -52,16 +93,40 @@
         }
       }
       .johannes {
-        background-image: url("https://www.nordstudio.ch/wp/wp-content/uploads/2018/02/mitarbeiter-business-fotos_09.jpg");
+        background-image: url("../../../assets/team/johannes.jpg");
       }
       .jeanette {
-        background-image: url("https://www.nordstudio.ch/wp/wp-content/uploads/2018/02/mitarbeiter-business-fotos_06.jpg");
+        background-image: url("../../../assets/team/jeanette.jpg");
       }
       .alfred {
-        background-image: url("https://www.nordstudio.ch/wp/wp-content/uploads/2018/02/mitarbeiter-business-fotos_05.jpg");
+        background-image: url("../../../assets/team/alfred.jpg");
       }
       .martin {
-        background-image: url("https://www.nordstudio.ch/wp/wp-content/uploads/2018/02/mitarbeiter-business-fotos_08.jpg");
+        background-image: url("../../../assets/team/martin.jpg");
+      }
+      .erica {
+        background-image: url("../../../assets/team/erica.jpg");
+      }
+      .paul {
+        background-image: url("../../../assets/team/paulius.jpg");
+      }
+      .villu {
+        background-image: url("../../../assets/team/martin.jpg");
+      }
+      .mariss {
+        background-image: url("../../../assets/team/martin.jpg");
+      }
+      .vilius {
+        background-image: url("../../../assets/team/vilius.jpg");
+      }
+      .miodrag {
+        background-image: url("../../../assets/team/miodrag.jpg");
+      }
+      .mark {
+        background-image: url("../../../assets/team/mark.jpg");
+      }
+      .jonas {
+        background-image: url("../../../assets/team/jonas.jpg");
       }
       .image {
         background-position: center;
