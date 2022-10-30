@@ -18,7 +18,7 @@ function Kontakt(props) {
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               />
-              <Marker position={[59.9372844, 10.8812603]}>
+              <Marker position={[59.9380844, 10.8822603]}>
                 <Popup>
                 
                   Micheletveien 54, 1053 Oslo

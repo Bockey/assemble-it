@@ -1,5 +1,6 @@
 
 nav{
+   
     .wrapper{
         width: 100%;
         margin: 0 3%;
@@ -9,7 +10,7 @@ nav{
     }
     .nav-link{
         color: #FFF;
-        text-shadow: 0 3px 6px #000;
+        // text-shadow: 0 3px 6px #000;
         font-size: 20px;
         
     }
@@ -24,6 +25,9 @@ nav{
     top: 5px;
     z-index: 10;
     background-color: #685A5A;
+    @media (min-width: 768px) {
+        position: fixed;
+    }
     svg{
         @media (max-width: 768px){
             width: 54px;
@@ -33,4 +37,13 @@ nav{
 }
 .nav-link.active{
     color: #64B691 !important;
+}
+.navbar{
+    @media (min-width: 768px) {
+        position: fixed;
+        top: 0;
+        z-index: 9;
+        width: 100%;
+    }
+    position: static;
 }
