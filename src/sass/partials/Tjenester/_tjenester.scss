@@ -1,53 +1,56 @@
-.tjenester{
-    color: $color-secondary;
-    padding: 5rem 5% 3rem;
-    h1{
-        text-align: center;
+.tjenester {
+  color: $color-secondary;
+  padding: 5rem 5% 3rem;
+  h1 {
+    text-align: center;
+  }
+  .tjenester-container {
+    padding: 5rem 0 0;
+    .block-card {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 3rem 0;
+      align-items: center;
+      justify-content: center;
+      @media (max-width: 1080px) {
+        flex-direction: column;
+        align-items: baseline;
+      }
     }
-    .tjenester-container{
-        padding: 5rem 0 0;
-        .block-card{
-            display: flex;
-            flex-wrap: wrap;
-            padding: 3rem 0;
-            align-items: center;
-            justify-content: center;
-            @media (max-width: 1080px) {
-                flex-direction: column;
-                align-items: baseline;
-            }
-        }
-        .image{
-            width: 35%;
-            max-width: 800px;
-            height: 500px;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            @media (max-width: 1080px) {
-                width: 100%;
-                margin-bottom: 1rem;
-                order: 2;
-            }
-        }
-        .image1, .image3, .image5{
-            background-image: url("../../../assets/cars.jpg");
-        }
-        .image2, .image4{
-            order: 2;
-            background-image: url("../../../assets/frameries.jpg");
-            @media (max-width: 1080px) {
-                
-            }
-        }
-        .text{
-            width: 50%;
-            max-width: 600px;
-            padding: 0 2rem;
-            @media (max-width: 1080px) {
-                width: 100%;
-                padding: 0;
-            }
-        }
+    .image {
+      width: 35%;
+      max-width: 800px;
+      height: 500px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      @media (max-width: 1080px) {
+        width: 100%;
+        margin-bottom: 1rem;
+        order: 2;
+      }
     }
+    .image2 {
+      background-image: url("../../../assets/cars.jpg");
+    }
+    .image3 {
+      order: 2;
+      background-image: url("../../../assets/hands.jpg");
+    }
+    .image1 {
+      order: 2;
+      background-image: url("../../../assets/frameries.jpg");
+      @media (max-width: 1080px) {
+      }
+    }
+    .text {
+      width: 50%;
+      max-width: 600px;
+      padding: 0 2rem;
+      @media (max-width: 1080px) {
+        width: 100%;
+        padding: 0;
+      }
+    }
+  }
 }

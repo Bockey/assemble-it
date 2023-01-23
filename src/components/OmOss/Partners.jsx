@@ -3,7 +3,7 @@ import React from "react";
 function Partners() {
   return (
     <div className="partners">
-      <h2>Our partners</h2>
+      <h2>Våre partnere</h2>
       <div className="list">
         <span>Click-it</span>
         <span>Input interior</span>

@@ -1,5 +1,6 @@
 .landing-screen {
   width: 100%;
+  min-height: 40vh;
   background-color: $color-secondary-light;
   display: flex;
   align-items: center;
@@ -51,6 +52,7 @@
     }
   }
   .carousel-shadow {
+    text-align: center;
     @media (max-width: 1080px) {
       z-index: 1;
       width: 100%;
@@ -92,13 +94,13 @@
           box-shadow: none;
         }
       }
-      .ci1{
+      .ci1 {
         background-image: url("../../../assets/two-frameries.jpg");
       }
-      .ci2{
+      .ci2 {
         background-image: url("../../../assets/group.jpg");
       }
-      .ci3{
+      .ci3 {
         background-image: url("../../../assets/lock-cabinet.jpg");
       }
     }

@@ -7,21 +7,24 @@ function Section1() {
         <h1>Om oss</h1>
         <p>
           <div>
-            Assemble-it er et montasjefirma som ble etablert i 2021. Vi er 7
-            ansatte og er i stadig vekst. Vi har mange års erfaring og kompetanse
-            innen prosjektledelse, montasje og spesialtilpasninger i både store og
-            små prosjekter.
+            Assemble-it startet i 2021 med utgangspunkt i fire gamle kollegaer
+            fra tidligere eventyr i bransjen, og med et lite lager på Ensjø i
+            Oslo. Med en Ford Transit og fire medarbeidere startet vi
+            montasjekarrieren for gamle kunder som visste hvem vi var fra før,
+            og for nye kunder som fikk høre at en ny montasjebedrift var kommen
+            for å bli.
           </div>
           <div>
-            Vi har egne biler og riktig utstyr for deres behov.
-            Innen kort tid kan vi også tilby lager og lagertjenster. Med våre
-            samarbeidspartnere kan vi også tilby kontorflytting, el- og
-            AV-installasjoner. 
+            Deretter har vi vart i stadig vekst og tatt oss opp i både kapasitet
+            og kompetanse. Vi har siden utvidet i alle retninger med størrelse
+            på lager, bil- og verktøypark og antall ansatte. Vi er i dag 22
+            medarbeidere i både operative og adminstrative stillinger.
           </div>
-           
+
           <div>
-            Våre kunder er blant annet entreprenører,
-            arkitekter og møbelgrossister.
+            Våre ambisjoner er at bli en ledende leverandør innen
+            montasjetjenester for kontor og kommersielle bygg, med
+            tilleggstjenester så som flytt, AV-montasje og kabelsanering.
           </div>
         </p>
       </div>

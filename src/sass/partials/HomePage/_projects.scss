@@ -2,6 +2,7 @@
   width: 100%;
   color: $color-secondary;
   padding: 3rem 5% 5rem;
+  text-align: center;
   @media (max-width: 1080px) {
     padding: 3rem 0;
   }
@@ -47,9 +48,10 @@
         display: none;
       }
       span {
-        background-color: $color-primary;
-        width: 2.5rem;
-        height: 2.5rem;
+        // background-color: $color-secondary-light;
+        // width: 2.5rem;
+        // height: 2.5rem;
+        display: none;
       }
     }
     &-control-next {
@@ -61,13 +63,23 @@
       width: unset;
       bottom: 2rem;
       top: unset;
+      z-index: 0;
+      &::before {
+        color: $color-primary;
+        content: "NESTE --->";
+        display: block;
+        width: 2.5rem;
+        height: 2.5rem;
+      }
+
       @media (max-width: 1080px) {
         display: none;
       }
       span {
-        background-color: $color-primary;
-        width: 2.5rem;
-        height: 2.5rem;
+        // background-color: $color-secondary-light;
+        // width: 2.5rem;
+        // height: 2.5rem;
+        display: none;
       }
     }
   }

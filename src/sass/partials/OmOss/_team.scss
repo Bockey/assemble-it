@@ -16,38 +16,38 @@
       margin-top: 0;
     }
     //added
-    .accordion{
+    .accordion {
       width: 100%;
       border: none;
-    
-      .accordion-item{
+
+      .accordion-item {
         width: 100%;
         border: none;
-        h2{
+        h2 {
           padding: 1rem 0;
         }
-        .accordion-body{
+        .accordion-body {
           display: flex;
           flex-wrap: wrap;
           justify-content: space-evenly;
         }
       }
-      .accordion-button{
+      .accordion-button {
         background-color: $color-primary;
         color: #fff;
-        &::after{
+        &::after {
           filter: invert(300%);
         }
       }
-      .accordion-button:not(.collapsed){
+      .accordion-button:not(.collapsed) {
         background-color: $color-primary;
         color: #fff;
-        &::after{
+        &::after {
           filter: grayscale(100%) opacity(0.3);
         }
       }
       .accordion-button:focus {
-        box-shadow:  none;
+        box-shadow: none;
         border-bottom: 2px solid $color-secondary-light;
       }
     }
@@ -87,47 +87,12 @@
       }
       span {
         display: block;
-        @media (max-width: 389px) {
+        @media (max-width: 411px) {
           font-size: 16px;
           transform: translateX(1rem);
         }
       }
-      .johannes {
-        background-image: url("../../../assets/team/johannes.jpg");
-      }
-      .jeanette {
-        background-image: url("../../../assets/team/jeanette.jpg");
-      }
-      .alfred {
-        background-image: url("../../../assets/team/alfred.jpg");
-      }
-      .martin {
-        background-image: url("../../../assets/team/martin.jpg");
-      }
-      .erica {
-        background-image: url("../../../assets/team/erica.jpg");
-      }
-      .paul {
-        background-image: url("../../../assets/team/paulius.jpg");
-      }
-      .villu {
-        background-image: url("../../../assets/team/martin.jpg");
-      }
-      .mariss {
-        background-image: url("../../../assets/team/martin.jpg");
-      }
-      .vilius {
-        background-image: url("../../../assets/team/vilius.jpg");
-      }
-      .miodrag {
-        background-image: url("../../../assets/team/miodrag.jpg");
-      }
-      .mark {
-        background-image: url("../../../assets/team/mark.jpg");
-      }
-      .jonas {
-        background-image: url("../../../assets/team/jonas.jpg");
-      }
+
       .image {
         background-position: center;
         background-size: cover;

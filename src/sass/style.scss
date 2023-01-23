@@ -18,7 +18,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: #fff;
 }
-.root, .App{
+.root,
+.App {
   min-height: 100vh;
   position: relative;
 }
@@ -32,3 +33,7 @@ body {
 @import "partials/Kontakt/kontakt";
 @import "partials/Tjenester/tjenester";
 @import "partials/footer";
+
+.spinner {
+  padding: 4rem 1rem;
+}
