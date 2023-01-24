@@ -50,40 +50,6 @@ function Tjenester() {
             </p>
           </div>
         </div>
-
-        {/* <div className="block-card fourth">
-        <div className="image4 image"></div>
-        <div className="text4 text">
-          <h3>Fourth</h3>
-          <p>
-            <span>
-              Vi har mange års erfaring og kompetanse innen prosjektledelse,
-              montasje og spesialtilpasninger.
-            </span>
-            <span>
-              Vi har mange års erfaring og kompetanse innen prosjektledelse,
-              montasje og spesialtilpasninger.
-            </span>
-          </p>
-        </div>
-      </div>
-
-      <div className="block-card fifth">
-        <div className="image5 image"></div>
-        <div className="text5 text">
-          <h3>Fifth</h3>
-          <p>
-            <span>
-              Vi har mange års erfaring og kompetanse innen prosjektledelse,
-              montasje og spesialtilpasninger.
-            </span>
-            <span>
-              Vi har mange års erfaring og kompetanse innen prosjektledelse,
-              montasje og spesialtilpasninger.
-            </span>
-          </p>
-        </div>
-      </div> */}
       </div>
     </div>
   );

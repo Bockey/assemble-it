@@ -15,8 +15,8 @@ function Description(props) {
       </div>
       <div className="description-text2">
         <p>
-          Vi har egne biler og riktig utstyr for deres behov. Vi har i dag 900
-          kvm lager på Furuset i Oslo.
+          Vi har egne biler og riktig utstyr for deres behov. Vi tilbyr
+          lagertjenester i vårt 900 kvm lager på Furuset i Oslo.
         </p>
         <Nav.Link href="/om-oss">Om oss</Nav.Link>
       </div>

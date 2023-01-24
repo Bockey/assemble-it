@@ -1,6 +1,4 @@
 import Accordion from "react-bootstrap/Accordion";
-// import TeamInformation from "./TeamInformation";
-// import TeamInfo from "./TeamInfo";
 import TeamList from "./TeamList";
 
 function Team() {

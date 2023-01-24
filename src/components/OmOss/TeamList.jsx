@@ -19,41 +19,38 @@ function TeamList(props) {
           if (response.ok) {
             const json = await response.json();
 
-            const data = json
-              //   .filter((item) => {
-              //     if (item.tags[0]) {
-              //       return false;
-              //     }
-              //     return true;
-              //   })
-              .map((item) => {
-                if (item.attributes[0] && !item.tags[1]) {
-                  return {
-                    id: item.id,
-                    name: item.name,
-                    image: item.images[1].src,
-                    title: item.attributes[0].terms[0].name,
-                    mail: item.attributes[1].terms[0].name,
-                    phone: item.attributes[2].terms[0].name,
-                  };
-                }
-                if (item.categories[0].id === 26) {
-                  return {
-                    id: item.id,
-                    name: item.name,
-                    image: item.images[1].src,
-                    sort: "photo",
-                  };
-                }
-
+            const data = json.map((item) => {
+              if (item.attributes[0] && !item.tags[1]) {
+                return {
+                  id: item.id, //team cards info
+                  name: item.name,
+                  image: item.images[1].src,
+                  title: item.attributes[0].terms[0].name,
+                  mail: item.attributes[1].terms[0].name,
+                  phone: item.attributes[2].terms[0].name,
+                };
+              }
+              if (item.categories[0].id === 26) {
                 return {
                   id: item.id,
                   name: item.name,
-                  image: item.images[1].src,
-                  cat: item.categories[0].id,
+                  image: item.images[1].src, //carousel photos
+                  sort: "photo",
                 };
-              });
-            const data1 = data.sort((a, b) => a.name.localeCompare(b.name)); //sorts data alphabetically
+              }
+
+              return {
+                id: item.id,
+                name: item.name, //projects
+                image: item.images[1].src,
+                cat: item.categories[0].id,
+                description: item.description
+                  .replace("<p>", "")
+                  .replace("</p>", ""),
+              };
+            });
+            // const data1 = data .sort((a, b) => a.name.localeCompare(b.name)); //sorts data alphabetically
+            const data1 = data;
             setPersons(data1);
             console.log(url);
             console.log(data1);
@@ -96,6 +93,7 @@ function TeamList(props) {
               ></div>
               <div className="carousel-text">
                 <h3>{person.name}</h3>
+                <p className="project-description">{person.description}</p>
               </div>
             </div>
           </Carousel.Item>

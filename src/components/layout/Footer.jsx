@@ -6,7 +6,7 @@ function Footer(props) {
       <div className="footer-container">
         <div className="footer-logo">
           <div className="footer-logo-img"></div>
-          <div className="signature">© Assemble It 2022</div>
+          <div className="signature">© Assemble It 2023</div>
         </div>
         <div className="footer-links">
           <h3>Links</h3>
