@@ -3,7 +3,7 @@ import LandingCarousel from "./LandingCarousel";
 import Description from "./Description";
 import Services from "./Services";
 import Projects from "./Projects";
-
+import Partners from "./OurPartners";
 
 function Hjem(props) {
   return (
@@ -12,6 +12,7 @@ function Hjem(props) {
       <Description />
       <Services />
       <Projects />
+      <Partners />
     </div>
   );
 }

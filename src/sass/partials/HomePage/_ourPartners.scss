@@ -1,4 +1,7 @@
 .partners {
+  color: $color-secondary;
+  max-width: 80%;
+  margin: 0 auto;
   h2 {
     text-align: center;
     padding: 3rem 0;
@@ -12,8 +15,10 @@
     padding-bottom: 3rem;
     .partners-logo {
       display: inline-block;
-      font-weight: bold;
-      padding: 0.5rem;
+      padding: 1rem;
+      img {
+        height: 50px;
+      }
     }
   }
 }
